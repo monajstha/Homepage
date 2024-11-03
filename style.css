@@ -46,12 +46,16 @@ header {
   gap: 1.5vw;
 }
 
+.card > h4 {
+  font-size: 1.5rem;
+}
+
 main {
   padding: 2.5vh 4vw;
 }
 
 .summary {
-  font-size: small;
+  font-size: 1.1rem;
   margin-top: 8px;
 }
 
@@ -63,6 +67,8 @@ main {
 
 .icon {
   margin: 0px 3px;
+  height: 14px;
+  width: 14px;
 }
 
 .main-container {
@@ -90,7 +96,6 @@ main {
   color: #ffffff;
   font-weight: 900;
   font-size: 1rem;
-  padding: 0px -24px;
   text-align: center;
   padding: 50px;
 }
@@ -105,11 +110,11 @@ main {
 }
 
 .project-title {
-  font-size: medium;
+  font-size: 1.25rem;
 }
 
 .project-desc {
-  font-size: small;
+  font-size: 1rem;
   margin-top: 5px;
   padding-bottom: 16px;
 }
@@ -205,6 +210,12 @@ footer {
     position: relative;
   }
 
+  .icon {
+    margin: 0px 5px;
+    height: 18px;
+    width: 18px;
+  }
+
   .card {
     display: flex;
     background-color: white;
@@ -279,9 +290,15 @@ footer {
     font-size: 1.3rem;
   }
 
+  .icon {
+    margin: 0px 5px;
+    height: 20px;
+    width: 20px;
+  }
+
   .card {
     background-color: white;
-    margin: 30px 0;
+    margin: 40px 0;
     width: auto;
   }
 
